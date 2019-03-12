@@ -10,7 +10,7 @@ app.use(cors());
 
 setInterval(function() {
   sqs.receiveMessage({
-    QueueUrl: '	https://sqs.us-east-1.amazonaws.com/526935631633/reporting',
+    QueueUrl: 'https://sqs.us-east-1.amazonaws.com/526935631633/reporting',
     VisibilityTimeout: 20
   }, function(err, data) {
     if (err) {

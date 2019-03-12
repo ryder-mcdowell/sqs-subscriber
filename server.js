@@ -31,7 +31,7 @@ setInterval(function() {
       }
     }
   });
-}, 1000);
+}, 5000);
 
 app.get('/', function(req, res) {
   res.send('Welcome to SQS listener')
